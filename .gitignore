@@ -1,0 +1,23 @@
+# Runtime and personally identifying data
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+!examples/sample_ratings.csv
+*.joblib
+*.pkl
+*.pickle
+*.key
+*.pem
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
